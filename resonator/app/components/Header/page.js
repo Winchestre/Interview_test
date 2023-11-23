@@ -1,38 +1,51 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const imageStyle = {
-    backgroundColor: 'black',
-    color: 'black',
-}
-
 export default function Header() {
     return (
-        <main className="flex align-center justify-between pt-3">
+        <main className="flex justify-between align-center py-5 px-8">
             <div>
                 <Image
-                    src="/assets/logonew7.png.png"
+                    src="/assets/logonew1.png.png"
                     width={90}
                     height={90}
                     quality={100}
                     alt="logo"
-                    style={imageStyle}
                 />
             </div>
-            <div className="links space-x-3">
-                <Link href='/'>Home</Link>
-                <Link href='/pages'>Pages</Link>
-                <Link href='/podcast'>Podcast</Link>
-                <Link href='/blog'>Blog</Link>
-                <Link href='/shop'>Shop</Link>
-            </div>
-            <div className="search--menu flex">
-                <div className="search">
-                    <h2>Search</h2>
+            <ul className="flex gap-6">
+                <li>
+                    <Link href='/'>Home</Link>
+                </li>
+                <li>
+                    <Link href='/Pages'>Pages</Link>
+                </li>
+                <li>
+                    <Link href='/Podcast'>Podcast</Link>
+                </li>
+                <li>
+                    <Link href='/Blog'>Blog</Link>
+                </li>
+                <li>
+                    <Link href='/Shop'>Shop</Link>
+                </li>
+            </ul>
+            <div className="search--menu flex gap-3">
+                <div className="flex align-center">
+                    <Image
+                        src='/assets/Frame.svg'
+                        width={13}
+                        height={13}
+                        alt='circle'
+                    />
+                    <span className="text-sm">Search</span>
                 </div>
-                <div className="menu">
-                    <h2>menu</h2>
-                </div>
+                <Image
+                    src='/assets/grid.svg'
+                    width={25}
+                    height={25}
+                    alt='circle'
+                />
             </div>
         </main>
     )

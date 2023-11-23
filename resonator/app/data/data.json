@@ -1,0 +1,54 @@
+{
+    "slideData": [
+        {
+            "url": "/assets/h4-newimg3-650x650.jpg.png",
+            "title": "how the new ages work",
+            "id": 1
+        },
+        {
+            "url": "/assets/pd-img1.jpg.png",
+            "title": "a new minset today",
+            "id": 2
+        },
+        {
+            "url": "/assets/pd3-img1.jpg.jpg",
+            "title": "the latest trends now",
+            "id": 3
+        },
+        {
+            "url": "/assets/pd4-img1.jpg.png",
+            "title": "organize your day",
+            "id": 4
+        },
+        {
+            "url": "/assets/pd5-img1.jpg.png",
+            "title": "how to plan your work",
+            "id": 5
+        },
+        {
+            "url": "/assets/pd6-img1.jpg.png",
+            "title": "trying the best phones",
+            "id": 6
+        }
+    ],
+    "hosts": [
+        {
+            "name": "Bella Jimenez",
+            "role": "Creative Strategist",
+            "id": 1,
+            "url": "/assets/team1.png"
+        },
+        {
+            "name": "Edwin Watson",
+            "role": "Head of R&D",
+            "id": 2,
+            "url": "/assets/team2.png"
+        },
+        {
+            "name": "Caitlin Henderson",
+            "role": "Chief Designer",
+            "id": 3,
+            "url": "/assets/team3.png"
+        }
+    ]
+}
